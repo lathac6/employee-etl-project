@@ -1,0 +1,13 @@
+2026-05-24 18:49:24,405-INFO-ETL Pipeline Started
+2026-05-24 18:49:24,405-INFO-Extract step started
+2026-05-24 18:49:24,425-INFO-CSV file read successfully
+2026-05-24 18:49:24,425-INFO-Transform step started
+2026-05-24 18:49:24,430-ERROR-Error occurred: 'DataFrame' object has no attribute 'drop_duplicate'
+2026-05-24 18:49:52,529-INFO-ETL Pipeline Started
+2026-05-24 18:49:52,529-INFO-Extract step started
+2026-05-24 18:49:52,533-INFO-CSV file read successfully
+2026-05-24 18:49:52,533-INFO-Transform step started
+2026-05-24 18:49:52,538-INFO-Data cleaned successfully
+2026-05-24 18:49:52,538-INFO-Load step started
+2026-05-24 18:49:52,542-INFO-Cleaned CSV saved successfully
+2026-05-24 18:49:52,542-INFO-ETL Pipeline Completed Successfully
