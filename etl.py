@@ -34,3 +34,10 @@ def main():
         logging.error(f"Error occurred: {e}")
         print("Error occurred:", e)
 main()
+
+#Incremental Load
+source_df=pd.read_csv("employees.csv")
+target_df=pd.read_csv("cleand_employees.csv")
+
+new_data = source_df[~source_df["id"].isin(target_df["id"])]
+print(new_data)
